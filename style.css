@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(#eb3349, #f45c43);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.location {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.loc-icon {
+  display: flex;
+  margin-left: -10px;
+}
+.location-icon {
+  margin-left: 15px;
+  margin-right: 13px;
+}
+
+.temperature {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.header {
+  font-size: 30px;
+  margin-top: -80px;
+}
+
+.header h1 {
+  font-size: 7vw;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+}
+
+.temperature {
+  flex-direction: column;
+}
+
+.degree-section {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.degree-section span {
+  margin: 13px;
+  font-size: 35px;
+}
+
+.degree-section h2 {
+  font-size: 45px;
+}
+
+.temperature-description {
+  font-size: 30px;
+}
+
+.location-icon {
+  color: white !important;
+}
+
+.footer {
+  bottom: 0;
+  position: fixed;
+  font-size: 10px;
+}
